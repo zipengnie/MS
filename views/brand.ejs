@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +13,132 @@
   <link rel="stylesheet" href="/css/common.css">
   <title>xx后台管理系统</title>
 </head>
+
 <body>
   <div class="container">
     <%- include("./common/head.ejs")%>
     <div class="nzp-main">
-        <%- include("./common/menu.ejs")%>
-       <%= title %>
+      <%- include("./common/menu.ejs")%>
+      <div class="body">
+        <p> <button type="button" class="search btn btn-primary">新增手机</button></p>
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>序号</th>
+              <th>图片</th>
+              <th>手机名称</th>
+              <th>所属品牌</th>
+              <th>官方指导价</th>
+              <th>二手回收价</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="pagination">
+          <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+          <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+        </ul>
+      </div>
     </div>
     <%- include("./common/foot.ejs")%>
   </div>
 </body>
+
 </html>

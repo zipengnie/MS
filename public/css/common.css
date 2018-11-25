@@ -10,7 +10,7 @@ html, body { height: 100%; }
 .nzp-head .head-right .btn { width: 60px; height: 30px; margin-left: 20px; padding: 0; }
 
 .nzp-main { height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; }
-.nzp-main .nzp-menu { width: 170px; height: 100%; overflow-y: auto; border-right: 1px solid blueviolet; background: #3E4558; }
+.nzp-main .nzp-menu { width: 170px; height: 100%; overflow-y: auto; border-right: 1px solid blueviolet; background: #337ab7; }
 .nzp-main .nzp-menu a { text-decoration: none; color: #fff; letter-spacing: 2px; }
 .nzp-main .nzp-menu li { width: 100%; height: 35px; line-height: 35px; font-size: 16px; text-align: center; border-bottom: 1px solid #fff; }
 .nzp-main .nzp-menu li:hover { background: rgba(152, 238, 112, 0.5); }
@@ -26,7 +26,7 @@ html, body { height: 100%; }
 .nzp-main .body .table td { border: 0.5px solid rgba(0, 0, 0, 0.5); }
 .nzp-main .body .pagination { margin: 0; float: right; }
 
-.nzp-foot { height: 40px; border-top: 1px solid #fff; background: #3E4558; }
+.nzp-foot { height: 40px; border-top: 1px solid #fff; background: #3E4558; color: #fff; font-size: 12px; text-align: center; line-height: 40px; }
 
 /*=====================================修改bootstrap样式===========================================================*/
 
