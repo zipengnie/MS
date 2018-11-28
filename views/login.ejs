@@ -14,12 +14,13 @@
 </head>
 <body> 
   <div class="container">
-   <form action="get">
+    <form action="/users/login.html" method="POST">
      <h3>xx管理系统登录</h3>
-     <p><input type="text" name="user" placeholder="用户名/手机号" autocomplete="off"/></p>
+     <p><input type="text" name="name" placeholder="用户名/手机号" autocomplete="off"/></p>
      <p><input type="password" name="pwd" placeholder="密码" autocomplete="off"/></p>
      <p><button type="submit">login</button></p>
-   </form>
+     <a href="/register.html">还没有账号，立即注册！</a>
+    </form>
   </div>
 </body>
 </html>
